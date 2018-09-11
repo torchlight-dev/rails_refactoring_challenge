@@ -1,0 +1,6 @@
+tmp/*
+log/*
+bin/*
+db/schema.rb
+node_modules/
+.keep
