@@ -4,7 +4,7 @@
 Repository for learning Ruby(+Rails) syntax.
 
 ## What do you do ?
-Refactor beginner codes under ther `questions/` as short as possible !
+Refactor beginner codes under the `questions/` as short as possible !
 
 ## How to start
 1. execute `bundle install`
