@@ -4,7 +4,8 @@ class Answer12
   TARGETS = [3,6]
 
   def self.execute
-    pp DATA.include?(TARGETS)
+    target = TARGETS.sample
+    pp DATA.include?(target)
   end
 
 end
