@@ -1,4 +1,4 @@
-class Answer4
+class Answer5
 
   DATA = [{ id: 1 },{ id: 2 },{ id: 3 }]
 
@@ -8,4 +8,4 @@ class Answer4
 
 end
 
-Answer4.execute
+Answer5.execute
