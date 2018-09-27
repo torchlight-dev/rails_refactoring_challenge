@@ -1,4 +1,4 @@
-class Answer12
+class Answer13
 
   DATA = [1,2,3,4,5]
   TARGETS = [3,6]
@@ -10,4 +10,4 @@ class Answer12
 
 end
 
-Answer12.execute
+Answer13.execute
