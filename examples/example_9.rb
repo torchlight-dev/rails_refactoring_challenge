@@ -7,7 +7,7 @@ class Example9
   ]
 
   def self.execute
-    pp DATA.select { |data| data[:name] != nil }.map { |data| data[:id] }
+    pp DATA.select { |data| data[:name] }.map { |data| data[:id] }
   end
 
 end
