@@ -4,9 +4,8 @@ class Question8
   DATA = ['not null', nil]
 
   def self.execute
-    result = 'not null'
-    sample = DATA.sample
-    if sample == nil
+    result = DATA.sample
+    if result == nil
       result = 'not null'
     end
     pp result
