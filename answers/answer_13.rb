@@ -4,8 +4,7 @@ class Answer13
   TARGETS = [3,6]
 
   def self.execute
-    target = TARGETS.sample
-    pp DATA.any? { |data| data > target }
+    pp DATA.any? { |data| data > TARGETS.sample }
   end
 
 end

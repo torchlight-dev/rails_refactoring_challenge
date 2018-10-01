@@ -1,8 +1,7 @@
 class Answer15
 
   def self.execute
-    user = User.find(1)
-    pp user.with_bmi
+    pp User.find(1).with_bmi
     # 修正前
     # pp user.as_json(methods: 'bmi')
   end

@@ -7,9 +7,10 @@ class Answer9
   ]
 
   def self.execute
-    pp DATA.select { |data| data[:name] != nil }.map { |data| data[:id] }
+    pp DATA.map { |data| data[:id] if !data[:name].blank? }.compact
+    # 初期実装
+    # pp DATA.select { |data| data[:name] != nil }.map { |data| data[:id] }
   end
-  
 end
 
 Answer9.execute

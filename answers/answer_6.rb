@@ -3,7 +3,7 @@ class Answer6
   DATA = []
 
   def self.execute
-    pp DATA.empty?
+    pp DATA.blank?
   end
 
 end
