@@ -1,11 +1,11 @@
-class Answer1
+class Answer5
 
   DATA = [{ id: 1 },{ id: 2 },{ id: 3 }]
 
   def self.execute
-    pp DATA.map { |data| data[:id] }
+    pp DATA.present?
   end
 
 end
 
-Answer1.execute
+Answer5.execute
