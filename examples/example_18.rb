@@ -13,7 +13,7 @@ class Example18
   private
 
   def self.has_name
-    proc { |data| data[:name] != nil }
+    proc { |data| data[:name] }
   end
 
   def self.get_id
